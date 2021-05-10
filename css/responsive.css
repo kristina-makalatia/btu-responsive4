@@ -1,0 +1,82 @@
+/* width & color example */
+/* @media (max-width: 1024px) {
+    .right-block {
+        width: 250px;
+        background-color: darkmagenta;
+    }
+    .left-block {
+        width: 250px;
+        background-color: darkslategrey;
+    }
+}
+
+@media (max-width: 768px) {
+    .right-block {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .right-block {
+        display: block;
+        width: 100px;
+    }
+} */
+
+
+/* flex-direction example */
+/* 
+@media (max-width: 1024px) {
+    .wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-block {
+        margin-bottom: 50px;
+    }
+} */
+
+/* flex-wrap example */
+@media (max-width: 600px) {
+    .wraper {
+        justify-content: center;
+    }
+    .center-block {
+        margin: 50px 0;
+    }
+}
+
+
+/* images examples */
+/* @media (max-width: 1080px) {
+    .images-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+@media (max-width: 1024px) {
+    .block-image{
+        width: 48%;
+    }
+    .container {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .block-image{
+        width: 100%;
+    }
+}
+
+
+/* header responsive */
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
